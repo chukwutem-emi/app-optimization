@@ -26,37 +26,7 @@ const Body = () => {
   if (listOfRestaurants.length === 0) {
     return <Shimmer />;
   }
-  // Normal js variable
-  // let listOfRestaurants = [{
-  //   type: "restaurant",
-  //   data:{
-  //     id:"334476",
-  //     name:"KFC",
-  //     cloudinaryImageId:"bdcd233971b7c81bf77e1fa4471280eb",
-  //     cuisine:["Burgers", "Biryani", "American", "Snacks", "Fast food"],
-  //     costForTwo:40000,
-  //     deliveryTime:36,
-  //     avgRating:"3.8",
-  //   },
-  //   data:{
-  //     id:"334475",
-  //     Name:"Dominos",
-  //     cloudinaryImageId:"bdcd233971b7c81bf77e1fa4471280eb",
-  //     cuisine:["Burgers", "Biryani", "American", "Snacks", "Fast food"],
-  //     costForTwo:40000,
-  //     deliveryTime:36,
-  //     avgRating:"4.5",
-  //   },
-  //   data:{
-  //     id:"334477",
-  //     Name:"MCD",
-  //     cloudinaryImageId:"bdcd233971b7c81bf77e1fa4471280eb",
-  //     cuisine:["Burgers", "Biryani", "American", "Snacks", "Fast food"],
-  //     costForTwo:40000,
-  //     deliveryTime:36,
-  //     avgRating:"4.1",
-  //   },
-  // },];
+ 
     return (
       <div className="body">
         <div className="filter">
